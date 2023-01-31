@@ -27,7 +27,7 @@ R1 = 65
 R2 = 89
 
 # plot the fuction
-Rs = np.linspace(0, 10*np.sqrt(R1*R2), 200)
+Rs = np.linspace(0, 10 * np.sqrt(R1 * R2), 200)
 # Rs = np.linspace(0, 10000, 200)
 plt.plot(Rs, fun(Rs))
 plt.axhline(color="r")
